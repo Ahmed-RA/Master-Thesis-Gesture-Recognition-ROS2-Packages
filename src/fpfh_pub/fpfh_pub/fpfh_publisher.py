@@ -31,7 +31,7 @@ class FPFH_Publisher(Node):
 
     #offline test mode, if true will sample frames from numpy data file
     #instead of 3D camera, set to false to use live frames
-    self.offline_test = True
+    self.offline_test = False
 
     
 
